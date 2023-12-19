@@ -407,7 +407,7 @@
 [ext_resource path="res://Anims/053682And999_0013.png" type="Texture" id=405]
 [ext_resource path="res://Anims/053682And999_0007.png" type="Texture" id=406]
 [ext_resource path="res://Anims/053682And999_0018.png" type="Texture" id=407]
-[ext_resource path="res://DanimalsCondense.ttf" type="DynamicFontData" id=408]
+[ext_resource path="res://GnuUnifontFull-Pm9P.ttf" type="DynamicFontData" id=408]
 [ext_resource path="res://Anims/overlay_001.png" type="Texture" id=409]
 [ext_resource path="res://Anims/overlay_002.png" type="Texture" id=410]
 
@@ -1581,7 +1581,7 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="dragworld/Orangeroomback"]
 position = Vector2( -15, -113 )
 frames = SubResource( 20 )
-frame = 1
+frame = 19
 playing = true
 centered = false
 
@@ -1617,7 +1617,7 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="dragworld/Greenroomback"]
 position = Vector2( -78, -91 )
 frames = SubResource( 21 )
-frame = 14
+frame = 8
 playing = true
 centered = false
 
@@ -1664,7 +1664,7 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="dragworld/Purpleroomback"]
 position = Vector2( -100, -59 )
 frames = SubResource( 22 )
-frame = 19
+frame = 13
 playing = true
 centered = false
 
@@ -1711,7 +1711,7 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="dragworld/Orangeroomback2"]
 position = Vector2( -10, -119 )
 frames = SubResource( 27 )
-frame = 2
+frame = 20
 playing = true
 centered = false
 
@@ -1758,7 +1758,7 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="dragworld/Greenroomback2"]
 position = Vector2( -68, -88 )
 frames = SubResource( 28 )
-frame = 21
+frame = 15
 playing = true
 centered = false
 
@@ -1924,7 +1924,7 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="dragworld/Hall"]
 position = Vector2( -116, -81 )
 frames = SubResource( 17 )
-frame = 18
+frame = 12
 playing = true
 centered = false
 
@@ -2036,7 +2036,7 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="dragworld/Purpleroomfront"]
 position = Vector2( 71, -63 )
 frames = SubResource( 23 )
-frame = 11
+frame = 5
 playing = true
 centered = false
 
@@ -2072,7 +2072,7 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="dragworld/Orangeroomfront"]
 position = Vector2( 22, -35 )
 frames = SubResource( 24 )
-frame = 7
+frame = 1
 playing = true
 centered = false
 
@@ -2119,7 +2119,6 @@ __meta__ = {
 [node name="AnimatedSprite2" type="AnimatedSprite" parent="dragworld/Greenroomfront"]
 position = Vector2( -29, -33 )
 frames = SubResource( 25 )
-frame = 6
 playing = true
 centered = false
 
@@ -2176,7 +2175,7 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="dragworld/Purpleroomfront2"]
 position = Vector2( 58, -75 )
 frames = SubResource( 26 )
-frame = 14
+frame = 13
 playing = true
 centered = false
 
@@ -2223,7 +2222,7 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="dragworld/Blacklight"]
 position = Vector2( 98, -37 )
 frames = SubResource( 18 )
-frame = 24
+frame = 42
 playing = true
 centered = false
 
@@ -2306,7 +2305,7 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="dragworld/Party"]
 position = Vector2( -81, -15 )
 frames = SubResource( 19 )
-frame = 10
+frame = 28
 playing = true
 centered = false
 
@@ -2423,7 +2422,7 @@ __meta__ = {
 [node name="AlexThorley" type="AnimatedSprite" parent="dragworld"]
 position = Vector2( 370, 253 )
 frames = SubResource( 16 )
-frame = 7
+frame = 1
 playing = true
 centered = false
 

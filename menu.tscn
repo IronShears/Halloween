@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Code/Control.gd" type="Script" id=1]
-[ext_resource path="res://DanimalsCondense.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://GnuUnifontFull-Pm9P.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://StaticArt/viewbuttonpress.png" type="Texture" id=3]
 [ext_resource path="res://StaticArt/viewbutton.png" type="Texture" id=4]
 [ext_resource path="res://Anims/overlay_001.png" type="Texture" id=5]
@@ -65,16 +65,14 @@ __meta__ = {
 }
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
-margin_left = 25.0
+margin_left = 15.0
 margin_top = 34.0
-margin_right = 136.0
-margin_bottom = 66.0
+margin_right = 148.0
+margin_bottom = 74.0
 custom_fonts/normal_font = SubResource( 1 )
 bbcode_enabled = true
-bbcode_text = "[center]View Data File
-19.2022.10.31?[/center]"
-text = "View Data File
-19.2022.10.31?"
+bbcode_text = "[center]View Data File 19.2022.10.31？[/center]"
+text = "View Data File 19.2022.10.31？"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -87,10 +85,8 @@ margin_right = 154.0
 margin_bottom = 106.0
 custom_fonts/normal_font = SubResource( 1 )
 bbcode_enabled = true
-bbcode_text = "[center]Drag to move camera.
-Click Doors and notches to move between rooms. Click Characters for information and a link to source. [/center]"
-text = "Drag to move camera.
-Click Doors and notches to move between rooms. Click Characters for information and a link to source. "
+bbcode_text = "[center]Drag to move camera. Click doors and notches to move between rooms. Click characters for information and a link to source. [/center]"
+text = "Drag to move camera. Click doors and notches to move between rooms. Click characters for information and a link to source. "
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -112,6 +108,7 @@ __meta__ = {
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 modulate = Color( 1, 1, 1, 0.435294 )
 frames = SubResource( 2 )
+frame = 1
 playing = true
 centered = false
 
